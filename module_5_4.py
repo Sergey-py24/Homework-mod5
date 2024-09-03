@@ -12,9 +12,6 @@ class House:
         self.name = name
         self.num_of_floors = num_of_floors
 
-    def __str__(self):
-        return self.name
-
     def __del__(self):
         print(f'{self.name} остался только в Википедии')
 
